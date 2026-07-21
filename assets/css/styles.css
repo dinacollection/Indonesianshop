@@ -557,8 +557,8 @@ img, svg {
 }
 
 @keyframes kenBurnsZoom {
-  0% { background-size: 100% auto; }
-  100% { background-size: 106% auto; }
+  0% { background-size: cover; }
+  100% { background-size: 110% cover; }
 }
 
 .hero-grid {
@@ -583,10 +583,8 @@ img, svg {
   align-items: center;
   gap: 0.5rem;
   padding: 0.45rem 1.3rem;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: var(--radius-full);
   color: var(--gold-300);
   font-size: 0.8rem;
@@ -716,13 +714,11 @@ img, svg {
 .hero-slide-card {
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: var(--radius-xl);
   padding: 0;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(28px);
-  -webkit-backdrop-filter: blur(28px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -763,13 +759,7 @@ img, svg {
   transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.glass-reflection-overlay {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 3;
-  transition: background 0.3s ease;
-}
+
 
 .hero-slide-info {
   background: #ffffff;
