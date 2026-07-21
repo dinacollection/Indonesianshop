@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertanyaan Sering Diajukan (FAQ) | DhinaCOLLECTION</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-ticker">
+      <span class="top-bar-badge">PUSAT BANTUAN</span>
+      <span>⭐ Temukan Jawaban Pertanyaan Seputar Belanja, Pengiriman & Garansi</span>
+    </div>
+    <div class="top-bar-links">
+      <a href="https://www.tiktok.com/@dnnisa6" target="_blank"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg> <span>TikTok @dnnisa6</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar-sticky">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo/logo.svg" alt="DhinaCOLLECTION Logo">
+      </a>
+      <div class="nav-actions">
+        <a href="wishlist.html" class="nav-icon-btn" title="Wishlist">♥ <span class="badge-count wishlist-badge-count">0</span></a>
+        <a href="cart.html" class="nav-icon-btn" title="Keranjang"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg> <span class="badge-count cart-badge-count">0</span></a>
+        <a href="login.html" class="user-account-link"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <span>Akun</span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="section-padding" style="background:var(--slate-50); min-height:85vh;">
+    <div class="section-container" style="max-width:850px;">
+      
+      <div style="text-align:center; margin-bottom:3rem;">
+        <span style="color:var(--emerald-700); font-weight:800; font-size:0.85rem; letter-spacing:2px; text-transform:uppercase;">HELP CENTER</span>
+        <h1 style="font-family:var(--font-serif); font-size:2.5rem; font-weight:800; color:var(--slate-900); margin-top:0.25rem;">
+          Pertanyaan Sering Diajukan (FAQ)
+        </h1>
+      </div>
+
+      <!-- Accordion List -->
+      <div style="display:flex; flex-direction:column; gap:1rem;" id="faq-accordion-container">
+        
+        <div class="faq-card" style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-lg); padding:1.25rem; cursor:pointer;" onclick="toggleFaq(this)">
+          <div style="font-weight:800; font-size:1.05rem; color:var(--slate-900); display:flex; justify-content:space-between; align-items:center;">
+            <span>Apakah seluruh produk di DhinaCOLLECTION 100% Original?</span>
+            <span style="font-size:1.2rem; color:var(--emerald-700);">▼</span>
+          </div>
+          <div class="faq-answer" style="display:none; margin-top:0.75rem; color:var(--slate-600); font-size:0.9rem; line-height:1.6; border-top:1px solid var(--slate-100); padding-top:0.75rem;">
+            Ya, 100% Asli & Bergaransi Official. Seluruh produk disuplai langsung dari brand owner lokal terpercaya dengan garansi retur 14 hari bila terbukti cacat produksi.
+          </div>
+        </div>
+
+        <div class="faq-card" style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-lg); padding:1.25rem; cursor:pointer;" onclick="toggleFaq(this)">
+          <div style="font-weight:800; font-size:1.05rem; color:var(--slate-900); display:flex; justify-content:space-between; align-items:center;">
+            <span>Dari mana pengiriman pesanan dilakukan?</span>
+            <span style="font-size:1.2rem; color:var(--emerald-700);">▼</span>
+          </div>
+          <div class="faq-answer" style="display:none; margin-top:0.75rem; color:var(--slate-600); font-size:0.9rem; line-height:1.6; border-top:1px solid var(--slate-100); padding-top:0.75rem;">
+            Seluruh paket diproses dan dikirim langsung dari Gudang Utama kami di Jalan Taslim, Kelurahan Bidara Cina, Kecamatan Jatinegara, Jakarta Timur (13330).
+          </div>
+        </div>
+
+        <div class="faq-card" style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-lg); padding:1.25rem; cursor:pointer;" onclick="toggleFaq(this)">
+          <div style="font-weight:800; font-size:1.05rem; color:var(--slate-900); display:flex; justify-content:space-between; align-items:center;">
+            <span>Bagaimana cara menggunakan voucher Bebas Ongkir & Diskon?</span>
+            <span style="font-size:1.2rem; color:var(--emerald-700);">▼</span>
+          </div>
+          <div class="faq-answer" style="display:none; margin-top:0.75rem; color:var(--slate-600); font-size:0.9rem; line-height:1.6; border-top:1px solid var(--slate-100); padding-top:0.75rem;">
+            Masukkan kode voucher <strong>DHINA2026</strong> (Diskon 20%) atau <strong>ONGKIRFREE</strong> (Bebas Ongkir) pada kolom voucher di halaman Keranjang Belanja sebelum melakukan checkout.
+          </div>
+        </div>
+
+        <div class="faq-card" style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-lg); padding:1.25rem; cursor:pointer;" onclick="toggleFaq(this)">
+          <div style="font-weight:800; font-size:1.05rem; color:var(--slate-900); display:flex; justify-content:space-between; align-items:center;">
+            <span>Metode pembayaran apa saja yang didukung?</span>
+            <span style="font-size:1.2rem; color:var(--emerald-700);">▼</span>
+          </div>
+          <div class="faq-answer" style="display:none; margin-top:0.75rem; color:var(--slate-600); font-size:0.9rem; line-height:1.6; border-top:1px solid var(--slate-100); padding-top:0.75rem;">
+            Kami mendukung QRIS Instant (BCA, GoPay, OVO, ShopeePay), Transfer Bank Virtual Account (BCA, Mandiri, BRI), serta layanan Bayar di Tempat (COD).
+          </div>
+        </div>
+
+        <div class="faq-card" style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-lg); padding:1.25rem; cursor:pointer;" onclick="toggleFaq(this)">
+          <div style="font-weight:800; font-size:1.05rem; color:var(--slate-900); display:flex; justify-content:space-between; align-items:center;">
+            <span>Bagaimana cara melacak keberadaan paket pesanan saya?</span>
+            <span style="font-size:1.2rem; color:var(--emerald-700);">▼</span>
+          </div>
+          <div class="faq-answer" style="display:none; margin-top:0.75rem; color:var(--slate-600); font-size:0.9rem; line-height:1.6; border-top:1px solid var(--slate-100); padding-top:0.75rem;">
+            Buka menu <strong>Tracking Order</strong> di navigasi atas, lalu ketikkan Nomor Resi ID Pesanan Anda (contoh: DC-20260721-889) untuk memantau perjalanan kurir secara real-time.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      &copy; 2024 - 2026 DhinaCOLLECTION. Knowledge Base & Customer Care.
+    </div>
+  </footer>
+
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+
+  <script>
+    function toggleFaq(card) {
+      const ans = card.querySelector('.faq-answer');
+      const isVisible = ans.style.display === 'block';
+      ans.style.display = isVisible ? 'none' : 'block';
+    }
+  </script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lacak Pesanan Pengiriman | DhinaCOLLECTION</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="top-bar-ticker">
+      <span class="top-bar-badge">SISTEM RESI REAL-TIME</span>
+      <span>⭐ Pantau Status Kurir Pengiriman 24/7 Dari Gudang Jakarta Timur</span>
+    </div>
+    <div class="top-bar-links">
+      <a href="https://www.tiktok.com/@dnnisa6" target="_blank"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg> <span>TikTok @dnnisa6</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar-sticky">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo/logo.svg" alt="DhinaCOLLECTION Logo">
+      </a>
+
+      <div class="nav-actions">
+        <a href="wishlist.html" class="nav-icon-btn" title="Wishlist">♥ <span class="badge-count wishlist-badge-count">0</span></a>
+        <a href="cart.html" class="nav-icon-btn" title="Keranjang"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg> <span class="badge-count cart-badge-count">0</span></a>
+        <a href="login.html" class="user-account-link"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <span>Akun</span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="section-padding" style="background:var(--slate-50); min-height:80vh;">
+    <div class="section-container" style="max-width:800px;">
+      
+      <div style="text-align:center; margin-bottom:2.5rem;">
+        <span style="color:var(--emerald-700); font-weight:800; font-size:0.85rem; letter-spacing:2px; text-transform:uppercase;">TRACKING CENTER</span>
+        <h1 style="font-family:var(--font-serif); font-size:2.2rem; font-weight:800; color:var(--slate-900); margin-top:0.25rem;">
+          Lacak Status Pesanan Anda
+        </h1>
+        <p style="color:var(--slate-500); font-size:0.95rem; margin-top:0.5rem;">
+          Masukkan Nomor Resi / ID Pesanan Anda (contoh: <strong>DC-20260721-889</strong>)
+        </p>
+      </div>
+
+      <!-- Tracking Search Box -->
+      <div style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-xl); padding:1.5rem; box-shadow:var(--shadow-sm); margin-bottom:2rem;">
+        <div style="display:flex; gap:0.75rem;">
+          <input type="text" id="track-id-input" value="DC-20260721-889" placeholder="Masukkan ID Pesanan..." style="flex:1; padding:0.85rem 1.25rem; border:1px solid var(--slate-300); border-radius:var(--radius-full); font-size:1rem; outline:none; font-weight:700; color:var(--emerald-900);">
+          <button onclick="trackOrderSim()" class="btn-primary-gold" style="padding:0.85rem 2rem;">
+            Lacak Resi 🔍
+          </button>
+        </div>
+      </div>
+
+      <!-- Tracking Result Stepper Box -->
+      <div id="tracking-result-box" style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-xl); padding:2rem; box-shadow:var(--shadow-md);">
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--slate-200); padding-bottom:1rem; margin-bottom:1.5rem;">
+          <div>
+            <div style="font-size:0.8rem; color:var(--slate-500);">Nomor Resi Paket</div>
+            <div style="font-size:1.15rem; font-weight:800; color:var(--emerald-800);" id="trk-res-id">DC-20260721-889</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:0.8rem; color:var(--slate-500);">Ekspedisi</div>
+            <div style="font-weight:800; color:var(--slate-900);">JNE Reguler Express</div>
+          </div>
+        </div>
+
+        <!-- Progress Timeline Steps -->
+        <div style="display:flex; justify-content:space-between; margin-bottom:2rem; position:relative; padding:0 1rem;">
+          <div style="position:absolute; top:18px; left:10%; right:10%; height:4px; background:var(--emerald-600); z-index:1;"></div>
+          
+          <div style="position:relative; z-index:2; text-align:center;">
+            <div style="width:36px; height:36px; border-radius:50%; background:var(--emerald-700); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; margin:0 auto 0.5rem;">✓</div>
+            <div style="font-size:0.8rem; font-weight:800; color:var(--slate-900);">Pesanan Dibuat</div>
+          </div>
+
+          <div style="position:relative; z-index:2; text-align:center;">
+            <div style="width:36px; height:36px; border-radius:50%; background:var(--emerald-700); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; margin:0 auto 0.5rem;">✓</div>
+            <div style="font-size:0.8rem; font-weight:800; color:var(--slate-900);">Dikemas Gudang</div>
+          </div>
+
+          <div style="position:relative; z-index:2; text-align:center;">
+            <div style="width:36px; height:36px; border-radius:50%; background:var(--emerald-700); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; margin:0 auto 0.5rem;">🚛</div>
+            <div style="font-size:0.8rem; font-weight:800; color:var(--emerald-800);">Dalam Pengiriman</div>
+          </div>
+
+          <div style="position:relative; z-index:2; text-align:center;">
+            <div style="width:36px; height:36px; border-radius:50%; background:var(--slate-200); color:var(--slate-500); font-weight:800; display:flex; align-items:center; justify-content:center; margin:0 auto 0.5rem;">🏠</div>
+            <div style="font-size:0.8rem; font-weight:700; color:var(--slate-500);">Tiba di Alamat</div>
+          </div>
+        </div>
+
+        <!-- History Timeline List -->
+        <div style="display:flex; flex-direction:column; gap:1.25rem; border-top:1px solid var(--slate-100); padding-top:1.5rem;" id="trk-timeline-list">
+          <div style="display:flex; gap:1rem; font-size:0.85rem;">
+            <div style="color:var(--emerald-700); font-weight:800; min-width:130px;">21 Jul 2026 14:20</div>
+            <div style="color:var(--slate-800); font-weight:700;">Paket sedang dibawa oleh kurir express menuju alamat penerima (Jakarta Timur).</div>
+          </div>
+          <div style="display:flex; gap:1rem; font-size:0.85rem;">
+            <div style="color:var(--slate-500); min-width:130px;">21 Jul 2026 09:15</div>
+            <div style="color:var(--slate-600);">Paket telah tiba di Sortation Hub Jatinegara, Jakarta Timur.</div>
+          </div>
+          <div style="display:flex; gap:1rem; font-size:0.85rem;">
+            <div style="color:var(--slate-500); min-width:130px;">20 Jul 2026 18:00</div>
+            <div style="color:var(--slate-600);">Paket telah diserahterimakan dari Gudang Utama DhinaCOLLECTION ke Ekspedisi JNE.</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      &copy; 2024 - 2026 DhinaCOLLECTION. Real-Time Logistics System.
+    </div>
+  </footer>
+
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+
+  <script>
+    function trackOrderSim() {
+      const val = document.getElementById('track-id-input').value.trim();
+      if (!val) {
+        showToast("Mohon masukkan ID Pesanan.", "error");
+        return;
+      }
+      document.getElementById('trk-res-id').textContent = val;
+      showToast("Data status pengiriman berhasil diperbarui!", "success");
+    }
+  </script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pembayaran Checkout | DhinaCOLLECTION</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="top-bar-ticker">
+      <span class="top-bar-badge">CHECKOUT TERENKRIPSI 256-BIT</span>
+      <span>⭐ Rated 5.3/5 Trusted Store • Gudang Utama Jatinegara Jakarta Timur</span>
+    </div>
+    <div class="top-bar-links">
+      <a href="https://www.tiktok.com/@dnnisa6" target="_blank"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg> <span>TikTok @dnnisa6</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar-sticky">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo/logo.svg" alt="DhinaCOLLECTION Logo">
+      </a>
+      <div style="font-weight:800; font-size:1.1rem; color:var(--emerald-800);">
+        🔒 SECURE CHECKOUT
+      </div>
+    </div>
+  </header>
+
+  <div class="section-padding" style="background:var(--slate-50); min-height:85vh;">
+    <div class="section-container">
+      
+      <h1 style="font-family:var(--font-serif); font-size:2rem; font-weight:800; color:var(--slate-900); margin-bottom:1.5rem;">
+        Formulir Pengiriman & Pembayaran
+      </h1>
+
+      <div style="display:grid; grid-template-columns: 1fr 400px; gap:2rem;">
+        
+        <!-- Left: Address & Payment Forms -->
+        <div style="display:flex; flex-direction:column; gap:1.5rem;">
+          
+          <!-- 1. Alamat Pengiriman -->
+          <div style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-xl); padding:1.75rem;">
+            <h3 style="font-family:var(--font-serif); font-size:1.2rem; font-weight:800; color:var(--slate-900); margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem;">
+              📍 1. Alamat Lengkap Penerima
+            </h3>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div>
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">Nama Penerima *</label>
+                <input type="text" id="chk-name" placeholder="Nama Lengkap" value="Aulia Rahma" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">
+              </div>
+              <div>
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">No. HP WhatsApp *</label>
+                <input type="tel" id="chk-phone" placeholder="08xxxxxxxxxx" value="081234567890" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">
+              </div>
+              <div style="grid-column:1/-1;">
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">Alamat Lengkap (Jalan, No Rumah, RT/RW) *</label>
+                <textarea id="chk-address" rows="2" placeholder="Jl. Mawar No. 12 RT 03/RW 05" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">Jl. Sunda Kelapa No. 42</textarea>
+              </div>
+              <div>
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">Provinsi *</label>
+                <input type="text" id="chk-province" value="DKI Jakarta" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">
+              </div>
+              <div>
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">Kota / Kabupaten *</label>
+                <input type="text" id="chk-city" value="Jakarta Timur" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">
+              </div>
+              <div>
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">Kecamatan *</label>
+                <input type="text" id="chk-subdistrict" value="Jatinegara" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">
+              </div>
+              <div>
+                <label style="font-size:0.85rem; font-weight:700; color:var(--slate-700);">Kode Pos *</label>
+                <input type="text" id="chk-postal" value="13330" style="width:100%; padding:0.65rem 0.85rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); font-size:0.85rem; margin-top:0.25rem;">
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Kurir Ekspedisi -->
+          <div style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-xl); padding:1.75rem;">
+            <h3 style="font-family:var(--font-serif); font-size:1.2rem; font-weight:800; color:var(--slate-900); margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem;">
+              🚚 2. Pilih Kurir Pengiriman
+            </h3>
+
+            <div style="display:flex; flex-direction:column; gap:0.75rem;">
+              <label style="display:flex; align-items:center; justify-content:space-between; padding:0.85rem 1rem; border:1px solid var(--emerald-600); background:var(--emerald-50); border-radius:var(--radius-md); cursor:pointer;">
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                  <input type="radio" name="courier" value="JNE" checked>
+                  <div>
+                    <div style="font-weight:800; font-size:0.9rem; color:var(--slate-900);">JNE Reguler Express (1-2 Hari)</div>
+                    <div style="font-size:0.75rem; color:var(--slate-500);">Pengiriman Kilat dari Gudang Jakarta Timur</div>
+                  </div>
+                </div>
+                <span style="font-weight:800; color:var(--emerald-800);">Rp 20.000</span>
+              </label>
+
+              <label style="display:flex; align-items:center; justify-content:space-between; padding:0.85rem 1rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); cursor:pointer;">
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                  <input type="radio" name="courier" value="JNT">
+                  <div>
+                    <div style="font-weight:800; font-size:0.9rem; color:var(--slate-900);">J&T Express Fast</div>
+                    <div style="font-size:0.75rem; color:var(--slate-500);">Layanan Antar Sampai Rumah</div>
+                  </div>
+                </div>
+                <span style="font-weight:800; color:var(--emerald-800);">Rp 22.000</span>
+              </label>
+
+              <label style="display:flex; align-items:center; justify-content:space-between; padding:0.85rem 1rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); cursor:pointer;">
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                  <input type="radio" name="courier" value="GOSEND">
+                  <div>
+                    <div style="font-weight:800; font-size:0.9rem; color:var(--slate-900);">GoSend Instant (Area Jabodetabek)</div>
+                    <div style="font-size:0.75rem; color:var(--slate-500);">Tiba dalam 3-5 jam setelah pesanan diproses</div>
+                  </div>
+                </div>
+                <span style="font-weight:800; color:var(--emerald-800);">Rp 35.000</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- 3. Metode Pembayaran -->
+          <div style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-xl); padding:1.75rem;">
+            <h3 style="font-family:var(--font-serif); font-size:1.2rem; font-weight:800; color:var(--slate-900); margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem;">
+              💳 3. Metode Pembayaran
+            </h3>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.85rem;">
+              <label style="display:flex; align-items:center; gap:0.75rem; padding:0.85rem 1rem; border:2px solid var(--emerald-600); background:var(--emerald-50); border-radius:var(--radius-md); cursor:pointer;">
+                <input type="radio" name="payment" value="QRIS" checked>
+                <div>
+                  <div style="font-weight:800; font-size:0.85rem; color:var(--slate-900);">QRIS Instant Scan</div>
+                  <div style="font-size:0.7rem; color:var(--slate-500);">BCA, Mandiri, GoPay, OVO</div>
+                </div>
+              </label>
+
+              <label style="display:flex; align-items:center; gap:0.75rem; padding:0.85rem 1rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); cursor:pointer;">
+                <input type="radio" name="payment" value="BCA">
+                <div>
+                  <div style="font-weight:800; font-size:0.85rem; color:var(--slate-900);">BCA Virtual Account</div>
+                  <div style="font-size:0.7rem; color:var(--slate-500);">Konfirmasi Otomatis</div>
+                </div>
+              </label>
+
+              <label style="display:flex; align-items:center; gap:0.75rem; padding:0.85rem 1rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); cursor:pointer;">
+                <input type="radio" name="payment" value="MANDIRI">
+                <div>
+                  <div style="font-weight:800; font-size:0.85rem; color:var(--slate-900);">Mandiri Livin' VA</div>
+                  <div style="font-size:0.7rem; color:var(--slate-500);">Konfirmasi Otomatis</div>
+                </div>
+              </label>
+
+              <label style="display:flex; align-items:center; gap:0.75rem; padding:0.85rem 1rem; border:1px solid var(--slate-200); border-radius:var(--radius-md); cursor:pointer;">
+                <input type="radio" name="payment" value="COD">
+                <div>
+                  <div style="font-weight:800; font-size:0.85rem; color:var(--slate-900);">COD Bayar di Tempat</div>
+                  <div style="font-size:0.7rem; color:var(--slate-500);">Bayar Tunai ke Kurir</div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Order Items Summary & Submit -->
+        <div>
+          <div style="background:var(--white); border:1px solid var(--slate-200); border-radius:var(--radius-xl); padding:1.75rem; position:sticky; top:100px;">
+            <h3 style="font-family:var(--font-serif); font-size:1.25rem; font-weight:800; color:var(--slate-900); margin-bottom:1rem;">
+              Rincian Barang (${DhinaState.cart.length} Item)
+            </h3>
+
+            <div style="display:flex; flex-direction:column; gap:0.75rem; max-height:280px; overflow-y:auto; margin-bottom:1.25rem; padding-right:0.5rem;" id="chk-items-list">
+              <!-- Rendered Cart Items -->
+            </div>
+
+            <div style="border-top:1px solid var(--slate-200); padding-top:1rem; margin-bottom:1.5rem; display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem;">
+              <div style="display:flex; justify-content:space-between;">
+                <span>Subtotal Barang:</span>
+                <span style="font-weight:700;" id="chk-subtotal">Rp 0</span>
+              </div>
+              <div style="display:flex; justify-content:space-between;">
+                <span>Ongkos Kirim:</span>
+                <span style="font-weight:700;" id="chk-shipping">Rp 20.000</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; color:var(--emerald-700);" id="chk-discount-row">
+                <span>Diskon Voucher:</span>
+                <span style="font-weight:700;" id="chk-discount">-Rp 0</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:1.2rem; font-weight:800; color:var(--emerald-900); border-top:1px solid var(--slate-200); padding-top:0.75rem; margin-top:0.5rem;">
+                <span>Total Bayar:</span>
+                <span id="chk-total">Rp 0</span>
+              </div>
+            </div>
+
+            <button onclick="processOrderCheckout()" class="btn-primary-gold" style="width:100%; text-align:center; justify-content:center; padding:1rem; font-size:1.05rem;">
+              Buat Pesanan Sekarang ➔
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Order Receipt Success Modal -->
+  <div id="receipt-modal" style="position:fixed; inset:0; background:rgba(0,0,0,0.7); backdrop-filter:blur(8px); z-index:100000; display:none; align-items:center; justify-content:center; padding:1.5rem;">
+    <div style="background:var(--white); border-radius:var(--radius-xl); padding:2.5rem; width:100%; max-width:580px; box-shadow:var(--shadow-lg); text-align:center;">
+      <div style="font-size:3.5rem; margin-bottom:0.5rem;">🎉</div>
+      <h2 style="font-family:var(--font-serif); font-size:1.8rem; font-weight:800; color:var(--slate-900);">Pesanan Berhasil Dibuat!</h2>
+      <p style="color:var(--slate-500); font-size:0.9rem; margin-bottom:1.5rem;">
+        Terima kasih telah berbelanja di DhinaCOLLECTION. Struk bukti transaksi Anda telah terbit:
+      </p>
+
+      <div style="background:var(--slate-50); border:1px solid var(--slate-200); border-radius:var(--radius-lg); padding:1.25rem; text-align:left; font-size:0.875rem; line-height:1.7; margin-bottom:1.5rem;">
+        <div><strong>Nomor Resi / ID Pesanan:</strong> <span style="color:var(--emerald-800); font-weight:800;" id="rcp-id">DC-20260721-998</span></div>
+        <div><strong>Penerima:</strong> <span id="rcp-name">Aulia Rahma</span> (<span id="rcp-phone">081234567890</span>)</div>
+        <div><strong>Alamat Tujuan:</strong> <span id="rcp-addr">Jl. Sunda Kelapa No. 42, Jatinegara, Jakarta Timur</span></div>
+        <div><strong>Status Pembayaran:</strong> <span style="color:#059669; font-weight:800;">LUNAS / MENUNGGU KONFIRMASI KURIR</span></div>
+        <div style="border-top:1px solid var(--slate-200); margin-top:0.5rem; padding-top:0.5rem; display:flex; justify-content:space-between; font-weight:800; font-size:1.05rem; color:var(--emerald-900);">
+          <span>Total Pembayaran:</span>
+          <span id="rcp-total">Rp 0</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:0.75rem;">
+        <a href="tracking.html" style="flex:1; background:var(--emerald-700); color:var(--white); font-weight:800; padding:0.85rem; border-radius:var(--radius-full); text-align:center;">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg> <span>Lacak Pesanan</span>
+        </a>
+        <a href="https://wa.me/6289530524377" target="_blank" style="flex:1; background:#25D366; color:var(--white); font-weight:800; padding:0.85rem; border-radius:var(--radius-full); text-align:center;">
+          💬 WA Admin Toko
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/cart.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCheckoutSummary();
+    });
+
+    function renderCheckoutSummary() {
+      const list = document.getElementById('chk-items-list');
+      const cart = DhinaState.cart;
+
+      if (!list) return;
+
+      if (cart.length === 0) {
+        window.location.href = 'cart.html';
+        return;
+      }
+
+      list.innerHTML = cart.map(i => `
+        <div style="display:flex; justify-content:space-between; font-size:0.85rem;">
+          <div>
+            <div style="font-weight:700; color:var(--slate-900);">${i.name}</div>
+            <div style="color:var(--slate-500);">${i.quantity} x ${formatRupiah(i.price)}</div>
+          </div>
+          <div style="font-weight:800; color:var(--emerald-800);">${formatRupiah(i.price * i.quantity)}</div>
+        </div>
+      `).join('');
+
+      const totals = CartManager.calculateTotals();
+      document.getElementById('chk-subtotal').textContent = formatRupiah(totals.subtotal);
+      document.getElementById('chk-shipping').textContent = totals.shipping === 0 ? 'GRATIS' : formatRupiah(totals.shipping);
+      document.getElementById('chk-discount').textContent = `-${formatRupiah(totals.discount)}`;
+      document.getElementById('chk-total').textContent = formatRupiah(totals.total);
+    }
+
+    function processOrderCheckout() {
+      const name = document.getElementById('chk-name').value.trim();
+      const phone = document.getElementById('chk-phone').value.trim();
+      const address = document.getElementById('chk-address').value.trim();
+
+      if (!name || !phone || !address) {
+        showToast("Mohon lengkapi seluruh formulir penerima.", "error");
+        return;
+      }
+
+      const totals = CartManager.calculateTotals();
+      const randomId = 'DC-' + new Date().toISOString().slice(0,10).replace(/-/g,'') + '-' + Math.floor(1000 + Math.random() * 9000);
+
+      document.getElementById('rcp-id').textContent = randomId;
+      document.getElementById('rcp-name').textContent = name;
+      document.getElementById('rcp-phone').textContent = phone;
+      document.getElementById('rcp-addr').textContent = `${address}, ${document.getElementById('chk-city').value}`;
+      document.getElementById('rcp-total').textContent = formatRupiah(totals.total);
+
+      // Clear Cart
+      CartManager.clearCart();
+
+      // Show Modal
+      document.getElementById('receipt-modal').style.display = 'flex';
+    }
+  </script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>

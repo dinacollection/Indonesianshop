@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Sale Diskon Spesial | DhinaCOLLECTION</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-ticker">
+      <span class="top-bar-badge">FLASH SALE SERBU</span>
+      <span>⚡ Diskon Hingga 60% All Categories • Terbatas Hari Ini!</span>
+    </div>
+    <div class="top-bar-links">
+      <a href="https://www.tiktok.com/@dnnisa6" target="_blank"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg> <span>TikTok @dnnisa6</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar-sticky">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo/logo.svg" alt="DhinaCOLLECTION Logo">
+      </a>
+
+      <div class="nav-actions">
+        <a href="wishlist.html" class="nav-icon-btn" title="Wishlist">♥ <span class="badge-count wishlist-badge-count">0</span></a>
+        <a href="cart.html" class="nav-icon-btn" title="Keranjang"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg> <span class="badge-count cart-badge-count">0</span></a>
+        <a href="login.html" class="user-account-link"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <span>Akun</span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="section-padding" style="background:var(--slate-50); min-height:85vh;">
+    <div class="section-container">
+      
+      <!-- Flash Sale Hero Banner -->
+      <div style="background:linear-gradient(135deg, #DC2626, #991B1B); border-radius:var(--radius-xl); padding:3rem 2rem; color:#fff; margin-bottom:2.5rem; text-align:center; position:relative; overflow:hidden;">
+        <span style="background:rgba(255,255,255,0.2); backdrop-filter:blur(10px); padding:0.4rem 1.2rem; border-radius:var(--radius-full); font-weight:800; font-size:0.85rem; letter-spacing:2px;">
+          ⚡ CRAZY DEALS HARI INI
+        </span>
+        <h1 style="font-family:var(--font-serif); font-size:2.8rem; font-weight:800; margin:1rem 0 0.5rem;">
+          Flash Sale DhinaCOLLECTION
+        </h1>
+        <p style="color:#FEE2E2; font-size:1.1rem; max-width:600px; margin:0 auto 1.5rem;">
+          Penawaran terbatas untuk koleksi busana, frozen food, skincare, dan produk gaya hidup pilihan.
+        </p>
+
+        <!-- Timer -->
+        <div style="display:inline-flex; align-items:center; gap:0.5rem; background:rgba(0,0,0,0.3); padding:0.75rem 1.5rem; border-radius:var(--radius-full); font-size:1.2rem; font-weight:800;">
+          <span>⏰ Berakhir Dalam:</span>
+          <span style="background:#fff; color:#DC2626; padding:0.2rem 0.6rem; border-radius:6px;" id="fs-hours">05</span> :
+          <span style="background:#fff; color:#DC2626; padding:0.2rem 0.6rem; border-radius:6px;" id="fs-mins">42</span> :
+          <span style="background:#fff; color:#DC2626; padding:0.2rem 0.6rem; border-radius:6px;" id="fs-secs">19</span>
+        </div>
+      </div>
+
+      <!-- Claimable Vouchers Box -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem; margin-bottom:3rem;">
+        <div style="background:var(--white); border:2px dashed var(--gold-500); border-radius:var(--radius-lg); padding:1.25rem; display:flex; align-items:center; justify-content:space-between;">
+          <div>
+            <div style="font-weight:800; color:var(--slate-900); font-size:1.1rem;">VOUCHER DISKON 20%</div>
+            <div style="font-size:0.8rem; color:var(--slate-500);">Kode: <strong>DHINA2026</strong></div>
+          </div>
+          <button onclick="copyVoucher('DHINA2026')" class="btn-primary-gold" style="font-size:0.8rem; padding:0.5rem 1rem;">Klaim</button>
+        </div>
+
+        <div style="background:var(--white); border:2px dashed var(--emerald-600); border-radius:var(--radius-lg); padding:1.25rem; display:flex; align-items:center; justify-content:space-between;">
+          <div>
+            <div style="font-weight:800; color:var(--slate-900); font-size:1.1rem;">BEBAS ONGKIR SE-INDO</div>
+            <div style="font-size:0.8rem; color:var(--slate-500);">Kode: <strong>ONGKIRFREE</strong></div>
+          </div>
+          <button onclick="copyVoucher('ONGKIRFREE')" style="background:var(--emerald-700); color:#fff; font-weight:800; font-size:0.8rem; padding:0.5rem 1rem; border-radius:var(--radius-full);">Klaim</button>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="flash-sale-full-grid">
+        <!-- JS Rendered High Discount Items -->
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      &copy; 2024 - 2026 DhinaCOLLECTION. Limited Time Flash Sale Deals.
+    </div>
+  </footer>
+
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/wishlist.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const flashItems = PRODUCTS_DATA.filter(p => p.discount > 0);
+      const grid = document.getElementById('flash-sale-full-grid');
+      if (grid) {
+        grid.innerHTML = flashItems.map(p => `
+          <div class="product-card">
+            <button class="card-wishlist-btn ${DhinaState.wishlist.includes(p.id) ? 'active' : ''}" data-id="${p.id}" onclick="DhinaState.toggleWishlist('${p.id}')">♥</button>
+            <div class="card-media-wrapper" onclick="window.location.href='product.html?id=${p.id}'" style="cursor:pointer;">
+              ${p.svgImage}
+              <span class="card-badge">DISCOUNT ${p.discount}%</span>
+            </div>
+            <div class="card-body">
+              <div class="card-cat-brand">${p.brand} • ${p.category}</div>
+              <h3 class="card-title" onclick="window.location.href='product.html?id=${p.id}'" style="cursor:pointer;">${p.name}</h3>
+              <div class="card-price-row">
+                <span class="price-current">${formatRupiah(p.price)}</span>
+                <span class="price-old">${formatRupiah(p.oldPrice)}</span>
+              </div>
+              
+              <!-- Progress Bar Stock -->
+              <div style="background:var(--slate-200); height:8px; border-radius:var(--radius-full); overflow:hidden; margin-top:0.5rem;">
+                <div style="width:${Math.min(100, (p.soldCount / (p.soldCount + p.stock)) * 100)}%; background:linear-gradient(90deg, #DC2626, #F59E0B); height:100%;"></div>
+              </div>
+              <div style="font-size:0.75rem; color:var(--slate-500); margin-top:0.2rem; display:flex; justify-content:space-between;">
+                <span>Terjual: ${p.soldCount}</span>
+                <span style="color:#DC2626; font-weight:800;">Sisa: ${p.stock}</span>
+              </div>
+
+              <button class="card-action-btn" onclick="DhinaState.addToCart('${p.id}', 1)">⚡ Beli Sekarang</button>
+            </div>
+          </div>
+        `).join('');
+      }
+    });
+
+    function copyVoucher(code) {
+      navigator.clipboard.writeText(code);
+      showToast(`Kode Voucher "${code}" berhasil disalin! Pakai di keranjang.`, "success");
+    }
+  </script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>

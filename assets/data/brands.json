@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "name": "Buttonscarves",
+    "category": "Hijab & Muslim Fashion",
+    "rating": 4.9,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#E0F2FE\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#2563EB\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#2563EB\">\n        BUTTONSCARVES\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 2,
+    "name": "Rabbani",
+    "category": "Hijab & Muslim Fashion",
+    "rating": 4.8,
+    "location": "Bandung",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#E0F2FE\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#2563EB\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#2563EB\">\n        RABBANI\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        BANDUNG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Bandung yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 3,
+    "name": "Somethinc",
+    "category": "Skincare & Sunscreen",
+    "rating": 4.9,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#047857\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#047857\">\n        SOMETHINC\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 4,
+    "name": "Avoskin Beauty",
+    "category": "Skincare & Sunscreen",
+    "rating": 4.9,
+    "location": "Yogyakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#E0F2FE\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        AVOSKIN BEAUTY\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        YOGYAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Yogyakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 5,
+    "name": "Wardah Cosmetics",
+    "category": "Makeup & Cosmetics",
+    "rating": 4.8,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#F8FAFC\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#047857\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#047857\">\n        WARDAH COSMETICS\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 6,
+    "name": "Dear Me Beauty",
+    "category": "Makeup & Cosmetics",
+    "rating": 4.7,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#E0F2FE\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        DEAR ME BEAUTY\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 7,
+    "name": "Erigo Apparel",
+    "category": "Men Fashion",
+    "rating": 4.8,
+    "location": "Tangerang",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#ECFDF5\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#2563EB\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#2563EB\">\n        ERIGO APPAREL\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        TANGERANG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Tangerang yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 8,
+    "name": "Roughneck 1991",
+    "category": "Men Fashion",
+    "rating": 4.7,
+    "location": "Bandung",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        ROUGHNECK 1991\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        BANDUNG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Bandung yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 9,
+    "name": "Aerostreet",
+    "category": "Shoes & Footwear",
+    "rating": 4.8,
+    "location": "Klaten",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        AEROSTREET\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        KLATEN • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Klaten yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 10,
+    "name": "Ventela Shoes",
+    "category": "Shoes & Footwear",
+    "rating": 4.9,
+    "location": "Bandung",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        VENTELA SHOES\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        BANDUNG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Bandung yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 11,
+    "name": "Gita Fashion Local",
+    "category": "Women Fashion",
+    "rating": 4.8,
+    "location": "Surabaya",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#F8FAFC\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        GITA FASHION LOCAL\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        SURABAYA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Surabaya yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 12,
+    "name": "Thenblank Store",
+    "category": "Women Fashion",
+    "rating": 4.8,
+    "location": "Depok",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#ECFDF5\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#047857\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#047857\">\n        THENBLANK STORE\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        DEPOK • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Depok yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 13,
+    "name": "Bostanten Leather",
+    "category": "Bags & Luggage",
+    "rating": 4.7,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FCE7F3\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        BOSTANTEN LEATHER\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 14,
+    "name": "Merche Bags",
+    "category": "Bags & Luggage",
+    "rating": 4.8,
+    "location": "Bandung",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#E0F2FE\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#047857\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#047857\">\n        MERCHE BAGS\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        BANDUNG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Bandung yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 15,
+    "name": "Dapur Nusantara",
+    "category": "Frozen Food",
+    "rating": 4.9,
+    "location": "Malang",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#F8FAFC\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        DAPUR NUSANTARA\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        MALANG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Malang yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 16,
+    "name": "Kuliner Minang Asli",
+    "category": "Frozen Food",
+    "rating": 4.9,
+    "location": "Padang",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FCE7F3\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        KULINER MINANG ASLI\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        PADANG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Padang yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 17,
+    "name": "Kintakun Collection",
+    "category": "Home & Living",
+    "rating": 4.8,
+    "location": "Bandung",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#ECFDF5\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        KINTAKUN COLLECTION\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        BANDUNG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Bandung yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 18,
+    "name": "Bolde Household",
+    "category": "Kitchenware & Utensils",
+    "rating": 4.9,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#2563EB\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#2563EB\">\n        BOLDE HOUSEHOLD\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 19,
+    "name": "Baseus Local",
+    "category": "Gadgets & Electronics",
+    "rating": 4.8,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#ECFDF5\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#2563EB\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#2563EB\">\n        BASEUS LOCAL\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 20,
+    "name": "Anker Indo",
+    "category": "Gadgets & Electronics",
+    "rating": 4.9,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#E0F2FE\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        ANKER INDO\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 21,
+    "name": "Snack Zone Nusantara",
+    "category": "Snacks & Delicacies",
+    "rating": 4.9,
+    "location": "Bandung",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#F8FAFC\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        SNACK ZONE NUSANTARA\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        BANDUNG • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Bandung yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 22,
+    "name": "Kopi Anomali",
+    "category": "Beverages & Coffee",
+    "rating": 4.8,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#F8FAFC\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#D97706\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#D97706\">\n        KOPI ANOMALI\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 23,
+    "name": "Herbalov Indonesia",
+    "category": "Health & Wellness",
+    "rating": 4.9,
+    "location": "Surakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FCE7F3\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#2563EB\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#2563EB\">\n        HERBALOV INDONESIA\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        SURAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Surakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 24,
+    "name": "Little Palmerhaus",
+    "category": "Baby & Kids",
+    "rating": 4.9,
+    "location": "Jakarta",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#DB2777\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#DB2777\">\n        LITTLE PALMERHAUS\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  },
+  {
+    "id": 25,
+    "name": "Dhina Signature",
+    "category": "Hampers & Gift Sets",
+    "rating": 5.0,
+    "location": "Jakarta Timur",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 100\" width=\"100%\" height=\"100%\">\n      <rect width=\"200\" height=\"100\" rx=\"16\" fill=\"#FEF3C7\"/>\n      <rect x=\"8\" y=\"8\" width=\"184\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#7C3AED\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/>\n      <text x=\"100\" y=\"55\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"16\" font-weight=\"800\" fill=\"#7C3AED\">\n        DHINA SIGNATURE\n      </text>\n      <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#64748B\">\n        JAKARTA TIMUR • INDONESIA\n      </text>\n    </svg>",
+    "description": "Brand lokal unggulan asal Jakarta Timur yang berfokus pada kualitas tinggi dan kreasi otentik Indonesia."
+  }
+]

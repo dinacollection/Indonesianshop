@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist Produk Favorit | DhinaCOLLECTION</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="top-bar-ticker">
+      <span class="top-bar-badge">WISHLIST SAYA</span>
+      <span>⭐ Simpan Produk Favorit Anda & Dapatkan Notifikasi Diskon Spesial</span>
+    </div>
+    <div class="top-bar-links">
+      <a href="https://www.tiktok.com/@dnnisa6" target="_blank"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg> <span>TikTok @dnnisa6</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar-sticky">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo/logo.svg" alt="DhinaCOLLECTION Logo">
+      </a>
+
+      <div class="nav-search-box">
+        <div class="search-input-group">
+          <input type="text" class="search-input" placeholder="Cari 300+ produk...">
+          <button class="search-btn"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <a href="wishlist.html" class="nav-icon-btn" title="Wishlist">♥ <span class="badge-count wishlist-badge-count">0</span></a>
+        <a href="cart.html" class="nav-icon-btn" title="Keranjang"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg> <span class="badge-count cart-badge-count">0</span></a>
+        <a href="login.html" class="user-account-link"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <span>Akun</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Wishlist Container -->
+  <div class="section-padding" style="background:var(--slate-50); min-height:80vh;">
+    <div class="section-container">
+      
+      <!-- Breadcrumb -->
+      <div style="margin-bottom:1.5rem; font-size:0.875rem; color:var(--slate-500);">
+        <a href="index.html">Beranda</a> &gt; <span style="color:var(--emerald-800); font-weight:700;">Wishlist Favorit</span>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+        <h1 style="font-family:var(--font-serif); font-size:2rem; font-weight:800; color:var(--slate-900);">
+          Produk Wishlist Pilihan Anda
+        </h1>
+        <button onclick="DhinaState.wishlist = []; DhinaState.saveWishlist(); WishlistManager.renderWishlistPage();" style="color:#DC2626; font-size:0.85rem; font-weight:700;">
+          🗑️ Hapus Semua
+        </button>
+      </div>
+
+      <div class="products-grid" id="wishlist-grid-container">
+        <!-- JS Rendered Saved Products -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      &copy; 2024 - 2026 DhinaCOLLECTION.
+    </div>
+  </footer>
+
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/wishlist.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>
