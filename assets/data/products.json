@@ -264,8 +264,8 @@
       "Kondisi": "Baru 100% Original",
       "Garansi": "Garansi Toko DhinaCOLLECTION 14 Hari"
     },
-    "svgImage": "<img src=\"assets/products/dc_109.webp\" alt=\"Nugget Ayam Homemade Pure Meat 500g\" loading=\"lazy\" style=\"width:100%; height:100%; object-fit:cover; border-radius:12px;\">",
-    "imagePath": "assets/products/dc_109.webp",
+    "svgImage": "<img src=\"assets/images/products/nugget_ayam.jpg\" alt=\"Nugget Ayam Homemade Pure Meat 500g\" loading=\"lazy\" style=\"width:100%; height:100%; object-fit:cover; border-radius:12px;\">",
+    "imagePath": "assets/images/products/nugget_ayam.jpg",
     "bgColor": "#FEF3C7",
     "accentColor": "#D97706"
   },
